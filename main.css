@@ -1,0 +1,36 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: block;
+    width: 20vw;
+    height: 50vh;
+    background-color: White;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+img {
+    width: 18vw;
+    height: 30vh;
+    display: block;
+    border-radius: 10%;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#tagline {
+    font-weight: 700;
+}
