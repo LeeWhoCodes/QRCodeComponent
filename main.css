@@ -41,6 +41,29 @@ p {
 
 @media (max-width: 800px) {
     section {
-        background-color: red;
+        display: block;
+        width: 80vw;
+        height: 75vh;
+        background-color: White;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 25px;
+    }
+
+    img {
+        width: 70vw;
+        height: 45vh;
+        display: block;
+        border-radius: 25px;
+        margin-top: 15px;
+    }
+
+    p {
+        font-size: 4vw;
+        font-weight: 400;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
   }
